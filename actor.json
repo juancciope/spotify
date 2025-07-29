@@ -1,0 +1,14 @@
+{
+    "actorSpecification": 1,
+    "name": "spotify-playlist-email-scraper",
+    "title": "Spotify Playlist Email Scraper",
+    "description": "Scrapes Spotify playlists to find email addresses in descriptions for music submission opportunities. Perfect for musicians and labels looking for playlist curators accepting submissions.",
+    "version": "1.0.0",
+    "storageInput": "INPUT",
+    "meta": {
+        "templateId": "ts-playwright"
+    },
+    "input": "./INPUT_SCHEMA.json",
+    "dockerfile": "./Dockerfile",
+    "readme": "./README.md"
+}
